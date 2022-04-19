@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-""" the Brain Even Game Script """
+""" the Brain Game Progression Script """
 from ..games.all import welcome_user
-from ..games.even import play_even
+from ..games.progression import play_progression
 
 
 def main():
@@ -9,7 +9,7 @@ def main():
 
 
 user_name = welcome_user()
-play_even(user_name)
+play_progression(user_name)
 
 
 if __name__ == '__main__':
