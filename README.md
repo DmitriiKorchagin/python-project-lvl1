@@ -4,25 +4,31 @@
 
 
 ## 5 Brain Games - simple games for command line, was created at educational project at Hexlet.
+____
 
 
 
 
-### Asciinema casts for Brain Games:
+## Asciinema casts for Brain Games:
+### Even Game
 
-- [Even Game](https://asciinema.org/a/2HC8Hk2Y3KKZyU1771ZnVf2p4)
-- [Calculator Game](https://asciinema.org/a/YGWcDS7lBJ3yXVtR3AKXAlgrK)
-- [Great Devisor Game](https://asciinema.org/a/NIjhyNs1eHfEfveoogawQWeRF)
-- [Progression Game](https://asciinema.org/a/lJcFAb6kF0kFlho2A3JCHnu90)
-- [Prime Number Game](https://asciinema.org/a/XJ7Av7Xp3DW28fTHNtxbRIsjE)
-
+  [![asciicast](https://asciinema.org/a/2HC8Hk2Y3KKZyU1771ZnVf2p4.svg)](https://asciinema.org/a/2HC8Hk2Y3KKZyU1771ZnVf2p4)
+### Calculator Game
+[![asciicast](https://asciinema.org/a/YGWcDS7lBJ3yXVtR3AKXAlgrK.svg)](https://asciinema.org/a/YGWcDS7lBJ3yXVtR3AKXAlgrK)
+### Great Devisor Game
+[![asciicast](https://asciinema.org/a/NIjhyNs1eHfEfveoogawQWeRF.svg)](https://asciinema.org/a/NIjhyNs1eHfEfveoogawQWeRF)
+### Progression Game
+[![asciicast](https://asciinema.org/a/lJcFAb6kF0kFlho2A3JCHnu90.svg)](https://asciinema.org/a/lJcFAb6kF0kFlho2A3JCHnu90)
+### Prime Number Game
+[![asciicast](https://asciinema.org/a/XJ7Av7Xp3DW28fTHNtxbRIsjE.svg)](https://asciinema.org/a/XJ7Av7Xp3DW28fTHNtxbRIsjE)
+___
 ### This project was built using these tools: 
 - [Python3](https://www.python.org) 
 - [PIP](https://pypi.org/project/pip/)  
 - [Poetry](https://python-poetry.org/docs/) 
 - [Prompt Package](https://prompt.readthedocs.io/en/latest/)
 - [Flake8](https://flake8.pycqa.org/en/latest/)
-
+___
 ## How to install package Brain-Games:
 
 1. Install Python ver.3.9 or later
@@ -36,5 +42,5 @@
    - brain-prime
    - brain-gcd
    - brain-progression
-
+___
 ### Minimum requrements: Python ver.3.9. or later, PIP ver.20 or later
