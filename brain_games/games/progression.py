@@ -1,26 +1,19 @@
-#!/usr/bin/env python3
 """ two functions for the Ariphmetic Progression Game!"""
 from random import randint
 
+task_message = 'What number is missing in the progression?'
 
-def make_progression_line():
-    """ this function returns the ariphmetic progression
-    with randomly missing number)"""
-    ran_num_1 = randint(1, 50)
-    ran_num_2 = randint(1, 50)
-    progression_list = []
-    progression_list.append(ran_num_1)
+
+def play_game():
+    random_number = randint(1, 50)
+    random_number_step = randint(1, 50)
+    progression_numbers = []
+    progression_numbers.append(str(random_number))
     for i in range(1, 10):
-        ran_num_1 += ran_num_2
-        progression_list.append(ran_num_1)
-    ran_num_3 = randint(1, 9)
-    missing_number = str(progression_list[ran_num_3])
-    progression_list[ran_num_3] = ".."
-    progression_string = " ".join(map(str, progression_list))
-    return progression_string, missing_number
-
-
-def play_progression():
-    (prog_string, right_answer) = make_progression_line()
-    game_question = f'Question: {prog_string}'
+        random_number += random_number_step
+        progression_numbers.append(str(random_number))
+    random_missing_number = randint(1, 9)
+    right_answer = str(progression_numbers[random_missing_number])
+    progression_numbers[random_missing_number] = ".."
+    game_question = " ".join(progression_numbers)
     return game_question, right_answer

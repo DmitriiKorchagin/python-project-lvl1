@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 """ the Brain Game Progression Script """
-from ..games.all import start_game, welcome_user
-from ..games.progression import play_progression
+from brain_games.all import start_game
+import brain_games.games.progression as game_module
 
 
 def main():
-    pass
-
-
-user_name = welcome_user()
-print('What number is missing in the progression?')
-start_game(play_progression, user_name)
+    start_game(game_module)
 
 
 if __name__ == '__main__':

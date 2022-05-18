@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 """ the Brain Game Calculator Script """
-from ..games.all import start_game, welcome_user
-from ..games.calc import play_calc
+from brain_games.all import start_game
+import brain_games.games.calc as game_module
 
 
 def main():
-    pass
-
-
-user_name = welcome_user()
-print('What is the result of the expression?')
-start_game(play_calc, user_name)
+    start_game(game_module)
 
 
 if __name__ == '__main__':

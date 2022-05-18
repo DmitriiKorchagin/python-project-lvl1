@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 """ the Brain Game Prime Number Script """
-from ..games.all import start_game, welcome_user
-from ..games.prime import play_prime
+from brain_games.all import start_game
+import brain_games.games.prime as game_module
 
 
 def main():
-    pass
-
-
-user_name = welcome_user()
-print('Answer "yes" if given number is prime. Otherwise answer "no".')
-start_game(play_prime, user_name)
+    start_game(game_module)
 
 
 if __name__ == '__main__':

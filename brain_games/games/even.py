@@ -1,21 +1,15 @@
-#!/usr/bin/env python3
 """ two functions for the Even Number Game!"""
 from random import randint
 
 
-def is_even_number(num):
-    """function defines even number and returns True or False """
-    if num % 2 == 0:
-        return True
-    else:
-        return False
+task_message = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def play_even():
+def play_game():
     """ function define is user's answer correct about prime number """
     random_number = randint(1, 100)
-    game_question = f'Question: {str(random_number)}'
-    if is_even_number(random_number) is True:
+    game_question = str(random_number)
+    if random_number % 2 == 0:
         right_answer = 'yes'
     else:
         right_answer = 'no'

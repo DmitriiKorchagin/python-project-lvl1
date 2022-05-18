@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 """ the Brain Game Great Common Devisor Script """
-from ..games.all import start_game, welcome_user
-from ..games.gcd import play_gcd
+from brain_games.all import start_game
+import brain_games.games.gcd as game_module
 
 
 def main():
-    pass
-
-
-user_name = welcome_user()
-print('Find the greatest common divisor of given numbers.')
-start_game(play_gcd, user_name)
+    start_game(game_module)
 
 
 if __name__ == '__main__':
