@@ -1,7 +1,6 @@
 [![Actions Status](https://github.com/DmitriiKorchagin/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/DmitriiKorchagin/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/53d8d9187df172021187/maintainability)](https://codeclimate.com/github/DmitriiKorchagin/python-project-lvl1/maintainability)
 ![example workflow](https://github.com/DmitriiKorchagin/python-project-lvl1/actions/workflows/hexlet-lint.yml/badge.svg?event=push)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/53d8d9187df172021187/test_coverage)](https://codeclimate.com/github/DmitriiKorchagin/python-project-lvl1/test_coverage)
 
 
 ## 5 Brain Games - simple games for command line, was created at educational project at Hexlet.

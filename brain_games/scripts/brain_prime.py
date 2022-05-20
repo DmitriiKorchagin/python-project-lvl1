@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """ the Brain Game Prime Number Script """
-from brain_games.all import start_game
-import brain_games.games.prime as game_module
+from brain_games.engine import run
+import brain_games.games.prime as game
 
 
 def main():
-    start_game(game_module)
+    run(game)
 
 
 if __name__ == '__main__':
