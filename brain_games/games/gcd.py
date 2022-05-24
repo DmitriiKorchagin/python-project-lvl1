@@ -1,7 +1,7 @@
-""" two functions for the Great Devisor Game!"""
+""" functions for the Great Devisor Game!"""
 from random import randint
 
-TASK_MESSAGE = 'Find the greatest common divisor of given numbers.'
+GAME_RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def get_gcd_number(number1, number2):
@@ -13,7 +13,7 @@ def get_gcd_number(number1, number2):
     return number1 + number2
 
 
-def get_result_of_game():
+def get_question_and_answer_of_game():
     random_number_1 = randint(1, 100)
     random_number_2 = randint(1, 100)
     game_question = str(random_number_1) + " " + str(random_number_2)

@@ -2,26 +2,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/53d8d9187df172021187/maintainability)](https://codeclimate.com/github/DmitriiKorchagin/python-project-lvl1/maintainability)
 ![example workflow](https://github.com/DmitriiKorchagin/python-project-lvl1/actions/workflows/hexlet-lint.yml/badge.svg?event=push)
 
-
-## 5 Brain Games - simple games for command line, was created at educational project at Hexlet.
-____
-
-
-
-
-## Asciinema casts for Brain Games:
-### Even Game
-
-  [![asciicast](https://asciinema.org/a/2HC8Hk2Y3KKZyU1771ZnVf2p4.svg)](https://asciinema.org/a/2HC8Hk2Y3KKZyU1771ZnVf2p4)
-### Calculator Game
-[![asciicast](https://asciinema.org/a/YGWcDS7lBJ3yXVtR3AKXAlgrK.svg)](https://asciinema.org/a/YGWcDS7lBJ3yXVtR3AKXAlgrK)
-### Great Devisor Game
-[![asciicast](https://asciinema.org/a/NIjhyNs1eHfEfveoogawQWeRF.svg)](https://asciinema.org/a/NIjhyNs1eHfEfveoogawQWeRF)
-### Progression Game
-[![asciicast](https://asciinema.org/a/lJcFAb6kF0kFlho2A3JCHnu90.svg)](https://asciinema.org/a/lJcFAb6kF0kFlho2A3JCHnu90)
-### Prime Number Game
-[![asciicast](https://asciinema.org/a/XJ7Av7Xp3DW28fTHNtxbRIsjE.svg)](https://asciinema.org/a/XJ7Av7Xp3DW28fTHNtxbRIsjE)
-___
 ### This project was built using these tools: 
 - [Python3](https://www.python.org) 
 - [PIP](https://pypi.org/project/pip/)  
@@ -44,3 +24,23 @@ ___
    - brain-progression
 ___
 ### Minimum requrements: Python ver.3.9. or later, PIP ver.20 or later
+
+____
+## 5 Brain Games - simple games for command line, was created at educational project at Hexlet.
+____
+
+
+
+
+## Asciinema casts for Brain Games:
+### Even Game
+
+  [![asciicast](https://asciinema.org/a/2HC8Hk2Y3KKZyU1771ZnVf2p4.svg)](https://asciinema.org/a/2HC8Hk2Y3KKZyU1771ZnVf2p4)
+### Calculator Game
+[![asciicast](https://asciinema.org/a/YGWcDS7lBJ3yXVtR3AKXAlgrK.svg)](https://asciinema.org/a/YGWcDS7lBJ3yXVtR3AKXAlgrK)
+### Great Devisor Game
+[![asciicast](https://asciinema.org/a/NIjhyNs1eHfEfveoogawQWeRF.svg)](https://asciinema.org/a/NIjhyNs1eHfEfveoogawQWeRF)
+### Progression Game
+[![asciicast](https://asciinema.org/a/lJcFAb6kF0kFlho2A3JCHnu90.svg)](https://asciinema.org/a/lJcFAb6kF0kFlho2A3JCHnu90)
+### Prime Number Game
+[![asciicast](https://asciinema.org/a/XJ7Av7Xp3DW28fTHNtxbRIsjE.svg)](https://asciinema.org/a/XJ7Av7Xp3DW28fTHNtxbRIsjE)

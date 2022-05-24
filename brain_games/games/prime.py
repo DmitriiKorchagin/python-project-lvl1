@@ -1,11 +1,11 @@
-""" two functions for the Prime Number Game!"""
+""" functions for the Prime Number Game!"""
 from random import randint
 from math import sqrt
 
-TASK_MESSAGE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def is_prime_number(number):
+def is_prime(number):
     if number < 2:
         return False
     for i in range(2, int(sqrt(number)) + 1):
@@ -14,12 +14,10 @@ def is_prime_number(number):
     return True
 
 
-def get_result_of_game():
+def get_question_and_answer_of_game():
     random_number = randint(2, 100)
     game_question = str(random_number)
-
-    if is_prime_number(random_number):
+    right_answer = 'no'
+    if is_prime(random_number):
         right_answer = 'yes'
-    else:
-        right_answer = 'no'
     return game_question, right_answer
