@@ -2,7 +2,7 @@
 from random import randint
 from math import sqrt
 
-GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -14,7 +14,7 @@ def is_prime(number):
     return True
 
 
-def get_question_and_answer_of_game():
+def get_question_and_answer():
     random_number = randint(2, 100)
     game_question = str(random_number)
     right_answer = 'no'
